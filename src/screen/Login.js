@@ -8,7 +8,7 @@ export default function Login() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     // console.log("working");
-    const response = await fetch('http://localhost:5000/api/loginuser', {
+    const response = await fetch('https://go-food-backen.onrender.com/api/loginuser', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'
