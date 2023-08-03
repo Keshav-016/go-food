@@ -1,0 +1,10 @@
+body{
+    margin: 0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    -webkit-font-smoothing: antialised;
+    -moz-osx-font-smoothing: grayscale;
+
+}
+#carousel{
+    max-height: 500px;
+}
